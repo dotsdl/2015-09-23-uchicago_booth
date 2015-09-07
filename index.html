@@ -1,11 +1,11 @@
 ---
 layout: workshop
 root: .
-venue: Booth School of Business, U. Chicago   # brief name of host site
-address: FIXME                                 # street address of home location
+venue: Booth School of Business, U. Chicago    # brief name of host site
+address: Harper Center, 5807 S. Woodlawn Ave, Chicago, IL 60637 # street address of home location
 country: United-States                         # country (hyphenated if need be, like 'United-Kingdom')
 language: en                                   # language code like 'en' or 'fr'
-latlng: FIXME                                  # fractional latitude and longitude like 41.7901128,-87.6007318
+latlng: 41.7889213,-87.5955699                 # fractional latitude and longitude like 41.7901128,-87.6007318
 humandate: Sep 23-24, 2015                     # use the format 'Feb 17-18, 2020' (without the quotes)
 humantime: 9:00 am - 4:30 pm                   # use the format '9:00 am - 4:30 pm' (without the quotes)
 startdate: 2015-09-23                          # use YYYY-MM-DD format like 2015-01-01
@@ -91,7 +91,7 @@ eventbrite:                                    # optional (delete this if not us
 {% if page.latlng %}
 <p>
   <strong>Where:</strong>
-  {{page.address}}.
+  {{page.address}}. We will be using Room C04 on Day 1, and Room C25 on Day 2.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
